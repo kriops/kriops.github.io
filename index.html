@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kristoffer Opsahl</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+    <style>
+        body, html {
+            height: 100%;
+        }
+
+        /* The hero image */
+        .hero-image {
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("hero.jpg");
+
+            /* Set a specific height */
+            height: 100%;
+
+            /* Position and center the image to scale nicely on all screens */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        /* Place text in the middle of the image */
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .link {
+            min-width: 50% !important;
+        }
+    </style>
+</head>
+<body>
+<div class="hero-image">
+    <div class="hero-text w3-text-theme w3-content">
+        <div class="w3-panel w3-text-theme-light w3-theme w3-border">
+            <h1>Kristoffer Opsahl</h1>
+            <p>Hello, and welcome to my personal website. Below you will find a list of links to my profiles on various websites.</p>
+        </div>
+        <hr>
+        <div class="links-container">
+            <a href="https://www.linkedin.com/in/kriops/" class="w3-button w3-theme w3-large w3-round w3-border link" target="_blank">LinkedIn</a>
+            <br>
+            <a href="https://github.com/kriops" class="w3-button w3-theme w3-large w3-round w3-border link" target="_blank">GitHub</a>
+            <br>
+            <a href="https://gitlab.com/kriops" class="w3-button w3-theme w3-large w3-round w3-border link" target="_blank">GitLab</a>
+            <br>
+            <a href="https://www.facebook.com/kriops" class="w3-button w3-theme w3-large w3-round w3-border link" target="_blank">Facebook</a>
+            <br>
+            <a href="https://www.instagram.com/kriops" class="w3-button w3-theme w3-large w3-round w3-border link" target="_blank">Instagram</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
