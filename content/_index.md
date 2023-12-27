@@ -1,6 +1,6 @@
 +++
 title = "Kristoffer Opsahl"
-tagline = "Java Full-stack & Application Security"
+tagline = "Java Full-Stack & Application Security"
 +++
 
 
