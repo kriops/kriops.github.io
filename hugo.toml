@@ -24,7 +24,7 @@ copyright = "&copy;2023 Kristoffer Opsahl"
   twitterHandle = "kriops"
 
   # Favicon
-  favicon = "favicon.ico"
+  favicon = "img/favicon.ico"
 
   # Section - Visual
   [params.visual]
