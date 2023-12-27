@@ -1,0 +1,4 @@
+baseURL = 'https://kristofferopsahl.com'
+languageCode = 'en-us'
+title = 'Kristoffer Opsahl'
+theme='vncnt-hugo'
