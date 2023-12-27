@@ -21,7 +21,7 @@ copyright = "&copy;2023 Kristoffer Opsahl"
   author = "Kristoffer Opsahl"
   description = "Software Engineer with focus on Java, Spring Boot and Application Security."
   shareImage = "img/portrait_sq.jpg"
-  twitterHandle = "kriops"
+  twitterHandle = "@opsahl_k"
 
   # Favicon
   favicon = "img/favicon.ico"
