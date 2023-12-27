@@ -4,3 +4,9 @@
 [submodule "themes/m10c"]
 	path = themes/m10c
 	url = https://github.com/vaga/hugo-theme-m10c.git
+[submodule "themes/hugo-theme-pico"]
+	path = themes/hugo-theme-pico
+	url = git@github.com:negrel/hugo-theme-pico.git
+[submodule "themes/hugo-split-theme"]
+	path = themes/hugo-split-theme
+	url = https://github.com/escalate/hugo-split-theme.git

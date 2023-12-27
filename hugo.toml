@@ -1,4 +1,104 @@
-baseURL = 'https://kristofferopsahl.com'
-languageCode = 'en-us'
-title = 'Kristoffer Opsahl'
-theme='vncnt-hugo'
+# Site settings
+baseURL = "https://kristofferopsahl.com"
+languageCode = "en-US"
+title = "Kristoffer Opsahl"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2023 Kristoffer Opsahl"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Kristoffer Opsahl"
+  description = "Kristoffer Opsahl"
+  shareImage = "img/portrait_sq.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "img/portrait_sq.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:hello@kristofferopsahl.com"
+        new_tab = false # Default, open at same tab
+
+      [[params.links.list1.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/kriops/"
+        new_tab = true # new tab
+
+      [[params.links.list1.link]]
+        text = "GitHub"
+        url = "https://github.com/kriops"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "TikTok"
+        url = "https://www.tiktok.com/@kriops"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/kriops/"
+
+      [[params.links.list2.link]]
+        text = "Facebook"
+        url = "https://www.facebook.com/kriops"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Projects"
+
+      [[params.links.list3.link]]
+        text = "Dry Streak for RuneLite"
+        url = "https://runelite.net/plugin-hub/show/dry-streak"
+
+#      [[params.links.list3.link]]
+#        text = "Link Two"
+#        url = "#"
+#
+#      [[params.links.list3.link]]
+#        text = "Link Three"
+#        url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
+
